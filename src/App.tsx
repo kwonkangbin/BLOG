@@ -1,11 +1,15 @@
 import React from 'react';
 import Bottem from './Components/Bottom';
+import GlobalStyles from './GlobalStyle';
 
 function App() {
   return (
-    <div className="App">
-      <Bottem />
-    </div>
+    <>
+      <GlobalStyles />
+      <div className="App">
+        <Bottem />
+      </div>
+    </>
   );
 }
 
