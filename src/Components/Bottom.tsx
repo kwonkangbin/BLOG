@@ -4,16 +4,25 @@ import styled from "styled-components";
 
 export default function Bottem(){
     return(
-        <>
+        <Container>
             <div>
-                <Window src={window_logo} alt="window logo" />
+                <img src={window_logo} alt="window logo" />
                 <div>Start</div>
             </div>
-        </>
+        </Container>
     );
 }
 
-const Window = styled.img`
-    width: 100px;
-    height: auto;
+const Container = styled.div`
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #dadada;
+
+    > div { 
+        > img {
+            width: 33px;
+            height: auto;
+        }
+    }
 `;
