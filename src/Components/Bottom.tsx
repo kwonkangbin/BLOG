@@ -18,15 +18,21 @@ const Container = styled.div`
     position: fixed;
     bottom: 0;
     width: 100vw;
+    height: 50px;
     background-color: #dadada;
-    padding: 7px 0 7px 12px;
+    padding: 3px 0 3px 4px;
+
+    display: flex;
+    align-items: center;
 
     > button { 
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 100px;
+        height: auto;
 
-        background: #7C7C7C;
+        background: #BCBCBC;
         border-bottom: 4px inset rgba(0,0,0,.5);
         border-left: 4px inset #f0f8ff;
         border-right: 4px inset rgba(0,0,0,.5);
