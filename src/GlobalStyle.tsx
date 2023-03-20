@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import retro from './Assets/Font/PFStardust.ttf';
 
 const GlobalStyles = createGlobalStyle`
   /* reset styles */
@@ -23,6 +24,11 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: #2c8c8c;
+  }
+
+  @font-face {
+    font-family: 'retro';    
+    src: url(${retro}) format('truetype'); 
   }
 `;
 

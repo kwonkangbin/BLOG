@@ -1,12 +1,12 @@
 import React from "react";
 import window_logo from "../Assets/Img/window_logo.png";
+import "../GlobalStyle.tsx"
 import styled from "styled-components";
 
 export default function Bottem(){
     return(
         <Container>
             <button>
-                <div></div>
                 <img src={window_logo} alt="window logo" />
                 <span>Start</span>
             </button>
@@ -51,9 +51,11 @@ const Container = styled.div`
         }
 
         > span{
+            font-family: 'retro';
             font-size: 17px;
             font-weight: 700;
             margin-left: 5px;
+            padding-bottom: 2.3px;
         }
     }
 `;
