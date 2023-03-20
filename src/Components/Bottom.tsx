@@ -18,7 +18,7 @@ const Container = styled.div`
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 50px;
+    height: 52px;
     background-color: #dadada;
     padding: 3px 0 3px 4px;
 
@@ -29,14 +29,15 @@ const Container = styled.div`
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding-left: 5.6px;
         width: 100px;
-        height: auto;
+        height: 40px;
 
         background: #BCBCBC;
-        border-bottom: 4px inset rgba(0,0,0,.5);
-        border-left: 4px inset #f0f8ff;
-        border-right: 4px inset rgba(0,0,0,.5);
-        border-top: 4px inset #f0f8ff;
+        border-bottom: 4px inset #939393;
+        border-left: 4px inset #bebdbd;
+        border-right: 4px inset #939393;
+        border-top: 4px inset #bebdbd;
         cursor: pointer;
 
         &:focus,
