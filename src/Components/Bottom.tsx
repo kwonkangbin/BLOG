@@ -51,7 +51,6 @@ const Container = styled.div`
         }
 
         > span{
-            font-family: 'retro';
             font-size: 17px;
             font-weight: 700;
             margin-left: 5px;

@@ -14,13 +14,21 @@ export default function Main(){
 }
 
 const Container = styled.div`
+    padding: 30px 30px 30px 30px;
     > div{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+
         > img{
-            width: 80px;
+            width: 60px;
             height: auto;
         }
         > span{
             color: white;
+            margin-top: 5px;
+            width: fit-content;
             font-size: 15px;
         }
     }
