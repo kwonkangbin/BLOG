@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import retro from './Assets/Font/PFStardust.ttf';
+import retro from './Assets/Font/PFStardust.woff';
+import retro2 from './Assets/Font/neodgm.woff2';
 
 const GlobalStyles = createGlobalStyle`
   /* reset styles */
@@ -29,6 +30,15 @@ const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'retro';    
     src: url(${retro}) format('truetype'); 
+  }
+
+  @font-face {
+    font-family: 'retro2';    
+    src: url(${retro2}) format('truetype'); 
+  }
+
+  span{
+    font-family: 'retro2';
   }
 `;
 
